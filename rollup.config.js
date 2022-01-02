@@ -13,6 +13,6 @@ export default [
 			format: 'esm'
 		},
 		plugins: [nodeResolve(), commonjs(), json()],
-		external: ['APP', 'MANIFEST', ...require('module').builtinModules]
+		external: ['APP', 'MANIFEST', 'NESTJS_MODULE', ...require('module').builtinModules]
 	}
 ];

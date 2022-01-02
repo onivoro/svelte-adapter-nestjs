@@ -41,6 +41,7 @@ export default function ({
 
 			builder.copy(files, out, {
 				replace: {
+					NESTJS_MODULE: module,
 					APP: './server/app.js',
 					MANIFEST: './manifest.js',
 					PATH_ENV: JSON.stringify(path_env),

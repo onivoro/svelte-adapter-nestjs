@@ -3,7 +3,7 @@ import { BuildOptions } from 'esbuild';
 
 interface AdapterOptions {
 	entryPoint?: string;
-	module: any;
+	module: string;
 	out?: string;
 	precompress?: boolean;
 	env?: {
