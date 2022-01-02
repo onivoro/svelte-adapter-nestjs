@@ -16,7 +16,7 @@ export default function ({
 	env: { path: path_env = 'SOCKET_PATH', host: host_env = 'HOST', port: port_env = 'PORT' } = {}
 } = {}) {
 	return {
-		name: '@sveltejs/adapter-node',
+		name: '@onivoro/svelte-adapter-nestjs',
 
 		async adapt(builder) {
 			builder.rimraf(out);
