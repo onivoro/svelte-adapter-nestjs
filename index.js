@@ -13,6 +13,7 @@ const files = fileURLToPath(new URL('./files', import.meta.url));
 export default function ({
 	out = 'build',
 	precompress,
+	module,
 	env: { path: path_env = 'SOCKET_PATH', host: host_env = 'HOST', port: port_env = 'PORT' } = {}
 } = {}) {
 	return {
