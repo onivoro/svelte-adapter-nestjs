@@ -8,7 +8,6 @@ import { __fetch_polyfill } from '@sveltejs/kit/install-fetch';
 // @ts-ignore
 import { App } from 'APP';
 import { manifest } from 'MANIFEST';
-import nestJsModule from 'NESTJS_MODULE';
 
 __fetch_polyfill();
 
