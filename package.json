@@ -36,7 +36,9 @@
 		"tiny-glob": "^0.2.9"
 	},
 	"devDependencies": {
+		"@rollup/plugin-commonjs": "^21.0.1",
 		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-node-resolve": "^13.1.2",
 		"@sveltejs/kit": "next",
 		"@types/compression": "^1.7.2",
 		"c8": "^7.10.0",
